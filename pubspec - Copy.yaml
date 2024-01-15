@@ -1,0 +1,25 @@
+name: davidmbah
+description: "A new Flutter project."
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_pdfview: ^1.0.0
+  path_provider: ^2.0.5
+  pdfx: ^2.5.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/pdf/agile prof CA .pdf
+    - assets/pdf/Use case modeling.pdf
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
